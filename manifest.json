@@ -1,0 +1,20 @@
+{
+  "name": "ETN TV ULTRA X",
+  "short_name": "ETN TV",
+  "description": "AI-Powered Live TV & Streaming Platform",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#04040e",
+  "theme_color": "#ff2244",
+  "categories": ["entertainment", "video", "multimedia"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Live TV", "url": "./index.html#live", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Movies", "url": "./index.html#movies", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
